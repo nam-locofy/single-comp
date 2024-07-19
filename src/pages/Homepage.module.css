@@ -1,0 +1,66 @@
+.tagheader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.button {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--accent);
+  text-align: center;
+  display: inline-block;
+  min-width: 88px;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  padding: var(--padding-4xs) 19px;
+  background-color: transparent;
+  width: 148px;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: rgba(0, 168, 135, 0.09);
+  border: 1px solid #00a887;
+  box-sizing: border-box;
+}
+.homepage,
+.listingsContentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.listingsContentParent {
+  width: 1340px;
+  padding: 0 var(--padding-11xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}

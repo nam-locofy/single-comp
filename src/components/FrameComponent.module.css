@@ -1,0 +1,186 @@
+.host {
+  color: var(--accent);
+}
+.findAHostContainer {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.discoverTheBest {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.findAHostForEveryJourneyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 122px;
+}
+.locationFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconhome {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchFilters {
+  height: 52px;
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.label1 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 66px;
+}
+.iconcalendar {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.dateGuestInner {
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  gap: var(--gap-xl);
+}
+.label2,
+.label3 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 76px;
+}
+.label3 {
+  min-width: 45px;
+}
+.grouped {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.iconsearch {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 55px;
+}
+.component1,
+.searchFlightsButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-xl);
+  background-color: var(--zinc-800);
+  width: 160px;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-dimgray-100);
+}
+.component1 {
+  align-self: stretch;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 0.7px solid var(--light-grey-border);
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-2xs);
+  gap: var(--gap-sm);
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.frameParent,
+.tagheaderInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 100%;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1280px;
+}
+.tagheaderInner {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-11xl) var(--padding-11xl);
+  box-sizing: border-box;
+  background-image: url(/public/frame-38@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-21xl-4);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}

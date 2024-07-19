@@ -1,0 +1,469 @@
+.imageIcon,
+.listingTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imageIcon {
+  width: 305px;
+  height: 300px;
+  object-fit: cover;
+}
+.listingTitle {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.listingSubtitle {
+  top: 21px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  color: var(--light-text);
+}
+.listingCont,
+.listingSubtitle,
+.rating {
+  position: absolute;
+  left: 0;
+}
+.listingCont {
+  top: 0;
+  width: 231px;
+  height: 36px;
+}
+.rating {
+  top: 1.5px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 22px;
+}
+.ratingCont,
+.starIcon {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 13px;
+  height: 13px;
+}
+.ratingCont {
+  top: 11.5px;
+  left: 231px;
+  width: 42px;
+  font-size: var(--font-size-sm);
+}
+.listingInfo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 273px;
+  height: 36px;
+}
+.night,
+.price {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.night {
+  top: 1.5px;
+  left: 47px;
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+  min-width: 37px;
+}
+.pricePerNight,
+.trendIcon {
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  width: 179px;
+  height: 13px;
+}
+.trendIcon {
+  top: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.priceChart {
+  text-decoration: none;
+  position: absolute;
+  top: 1.5px;
+  left: 24px;
+  letter-spacing: 0.02em;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+}
+.bestTime,
+.bottomContainer {
+  position: absolute;
+  height: 18px;
+}
+.bestTime {
+  top: 0;
+  left: 179px;
+  width: 94px;
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+}
+.bottomContainer {
+  top: 72px;
+  left: 16px;
+  width: 273px;
+  font-size: var(--font-size-lgi);
+}
+.itemDetails {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 106px;
+}
+.listingItems {
+  height: 406px;
+  width: 305px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 290px;
+}
+.imageIcon1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.listingSubtitle1,
+.listingTitle1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.listingTitle1 {
+  line-height: 17.5px;
+  font-weight: 600;
+  min-width: 81px;
+}
+.listingSubtitle1 {
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+  min-width: 8px;
+}
+.listingCont1 {
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rating1 {
+  height: 10px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 22px;
+}
+.starIcon1 {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  min-height: 13px;
+}
+.listingInfo1,
+.ratingCont1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ratingCont1 {
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-sm);
+}
+.listingInfo1 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.night1,
+.price1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price1 {
+  height: 13px;
+  font-weight: 600;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.night1 {
+  height: 10px;
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+  min-width: 37px;
+}
+.pricePerNight1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.trendIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+  min-height: 18px;
+}
+.priceChart1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+}
+.bestTime1,
+.bottomContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bestTime1 {
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+}
+.bottomContainer1 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+}
+.itemDetails1,
+.listingItems1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemDetails1 {
+  align-self: stretch;
+  padding: var(--padding-base);
+  gap: var(--gap-xl);
+}
+.listingItems1 {
+  height: 406px;
+  width: 305px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 290px;
+}
+.listingTitle2 {
+  font-weight: 600;
+}
+.listingSubtitle2,
+.listingTitle2,
+.listingTitle3 {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.listingSubtitle2 {
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.listingTitle3 {
+  line-height: 17.5px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 129px;
+}
+.bottomContainer3,
+.pricePerNight3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pricePerNight3 {
+  width: 179px;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.bottomContainer3 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  font-size: var(--font-size-lgi);
+}
+.listingTitle5,
+.listingTitle6 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 118px;
+}
+.listingTitle6 {
+  min-width: 102px;
+}
+.imageIcon7 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.superhostIcon {
+  height: 10px;
+  width: 6.7px;
+  position: relative;
+}
+.superhost {
+  height: 8px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 56px;
+}
+.heartIcon,
+.superhostTag {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+}
+.superhostTag {
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  gap: var(--gap-11xs);
+  z-index: 1;
+}
+.heartIcon {
+  width: 30px;
+  height: 30px;
+  right: 27px;
+  object-fit: cover;
+  z-index: 2;
+}
+.listingSubtitle7,
+.listingTitle7 {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.listingTitle7 {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 112px;
+}
+.listingSubtitle7 {
+  font-size: var(--font-size-sm);
+  line-height: 15.5px;
+  color: var(--light-text);
+}
+.itemDetails7,
+.listingItems7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemDetails7 {
+  align-self: stretch;
+  padding: var(--padding-base);
+  gap: var(--gap-xl);
+  z-index: 3;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.listingItems7 {
+  height: 406px;
+  width: 305px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 290px;
+  font-size: var(--font-size-xs);
+  color: var(--accent);
+}
+.listingTitle10,
+.listingTitle12,
+.listingTitle8 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.listingTitle8 {
+  line-height: 17.5px;
+}
+.listingTitle10,
+.listingTitle12 {
+  display: inline-block;
+}
+.listingTitle10 {
+  line-height: 17.5px;
+  min-width: 79px;
+}
+.listingTitle12 {
+  min-width: 121px;
+}
+.listingSubtitle12,
+.listingSubtitle14 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  color: var(--light-text);
+}
+.listingSubtitle12 {
+  white-space: pre-wrap;
+}
+.listingSubtitle14 {
+  display: inline-block;
+  min-width: 127px;
+}
+.listingGrid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
